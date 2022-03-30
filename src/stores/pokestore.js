@@ -10,7 +10,7 @@ const fetchPokemon = async () => {
     return {
       name: data.name,
       id: index + 1,
-      image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemen/${index + 1
+      image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1
         }.png`
     }
   })
@@ -20,3 +20,4 @@ const fetchPokemon = async () => {
 fetchPokemon()
 
 // hello world
+// pulled from ubuntu 22.04 jammy jellyfish
