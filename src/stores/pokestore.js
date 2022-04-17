@@ -14,6 +14,7 @@ const fetchPokemon = async () => {
         }.png`
     }
   })
+  console.log('server running');
   pokemon.set(loadedPokemon)
 }
 
